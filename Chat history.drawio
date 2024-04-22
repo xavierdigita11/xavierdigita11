@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" modified="2024-04-22T16:21:06.517Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="mPC0CxWCh7WHOx4wcNQl" version="24.2.7" type="github">
+  <diagram name="Page-1" id="rkoZgBTFIeurwGYOIHvd">
+    <mxGraphModel dx="1678" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_zCqwqBaiGnmnxk9KCgn-3" value="ask user &lt;br&gt;if wants the chat history &lt;br&gt;to be saved" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="323.75" y="470" width="142.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="_zCqwqBaiGnmnxk9KCgn-4" value="Default:&lt;br&gt;chat &lt;b&gt;won&#39;t &lt;/b&gt;be saved" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="350" y="340" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="t0RZ3I_6cDTc-Hy7L6dS-2" value="Add info button that tell user that the chat history is for:&lt;br&gt;- Give user historic messages when come back to the chat.&lt;br&gt;- Not for training purposes&lt;br&gt;-Cloud are private&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="210" width="350" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="t0RZ3I_6cDTc-Hy7L6dS-4" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=2;shape=mxgraph.ios7.misc.info;strokeColor=#0080f0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="250" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t0RZ3I_6cDTc-Hy7L6dS-5" value="show message:&lt;br&gt;&quot;chat history has been activated&quot;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t0RZ3I_6cDTc-Hy7L6dS-6" value="show message:&lt;br&gt;&quot;chat history won&#39;t be saved&quot;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="670" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t0RZ3I_6cDTc-Hy7L6dS-7" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="t0RZ3I_6cDTc-Hy7L6dS-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="534.5" as="sourcePoint" />
+            <mxPoint x="323.75" y="534.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t0RZ3I_6cDTc-Hy7L6dS-8" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_zCqwqBaiGnmnxk9KCgn-3" target="t0RZ3I_6cDTc-Hy7L6dS-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="530" as="sourcePoint" />
+            <mxPoint x="710" y="535" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t0RZ3I_6cDTc-Hy7L6dS-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0.474;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="t0RZ3I_6cDTc-Hy7L6dS-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="396" y="340" as="sourcePoint" />
+            <mxPoint x="450" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t0RZ3I_6cDTc-Hy7L6dS-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="_zCqwqBaiGnmnxk9KCgn-3" target="_zCqwqBaiGnmnxk9KCgn-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="570" as="sourcePoint" />
+            <mxPoint x="450" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t0RZ3I_6cDTc-Hy7L6dS-17" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;API logic: Chat History Management&lt;/h1&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;The chat history feature is disabled by default, allowing users to opt in during their interaction with the chat.&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;The toggle for history and additional information will be prominently positioned at the top of the chat interface.&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;Chat deletion conditions via the API are as follows:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;The chat will be deleted if the user reloads the page while the history toggle is disabled.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;The chat will also be deleted if the user has not reloaded the page and remains inactive for 15 minutes with the history toggle turned off.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;In all other scenarios, the chat history will be preserved. Switching the history toggle from on to off (from saving to not saving chat history) is straightforward; the API will simply delete the history.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="700" width="480" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="t0RZ3I_6cDTc-Hy7L6dS-18" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-6/24/toggle-on-128.png" vertex="1" parent="1">
+          <mxGeometry x="400" y="400" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t0RZ3I_6cDTc-Hy7L6dS-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="30" width="200" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="t0RZ3I_6cDTc-Hy7L6dS-22" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-6/24/toggle-on-128.png" vertex="1" parent="1">
+          <mxGeometry x="800" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t0RZ3I_6cDTc-Hy7L6dS-23" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Info.svg;" vertex="1" parent="1">
+          <mxGeometry x="650" y="35" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t0RZ3I_6cDTc-Hy7L6dS-26" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="250" width="180" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="t0RZ3I_6cDTc-Hy7L6dS-27" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="90" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t0RZ3I_6cDTc-Hy7L6dS-28" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="120" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t0RZ3I_6cDTc-Hy7L6dS-33" value="" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;arcSize=31;" vertex="1" parent="1">
+          <mxGeometry x="710" y="150" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t0RZ3I_6cDTc-Hy7L6dS-34" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="190" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="t0RZ3I_6cDTc-Hy7L6dS-35" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="60" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t0RZ3I_6cDTc-Hy7L6dS-36" value="Feature: Chat history toogle" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="60" y="45" width="350" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
